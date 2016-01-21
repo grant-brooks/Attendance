@@ -15,6 +15,73 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 **Robotics Attendance** tracks various data about your reported attendance at robotics, allowing you to judge for yourself how complete your dossier is.
 
 ---------------------------------------------------------------------------------------------------------------------
+
+#Update 1.2.2
+######January 18, 2016
+**Build Identifier:** P0116082.2412b
+
+**Technical Version Number:** 1.2.2.805
+
+
+##Changes in this Version
+
+• Version number and identifier behaviour has been modified.
+
+• Addresses issue in which time logged was reported incorrectly.
+
+• If while signed in a sign out is attempted, if the location has since changed to be outside maximum ample distance from the school, the time which was allotted will not be counted. (In short: REMEMBER TO SIGN OUT.)
+
+• *Various bug fixes.*
+
+
+##Known Issues
+
+• Tapping ‘return’ after entering text into the UITextField on the proximity detection override UIAlertView does not generate the expected response.
+
+• The proximity detection override UIAlertView UITextField may not automatically become the first responder when displayed.
+
+• The proximity detection UIAlertView may not function as expected.
+
+• The proximity detection override UIAlertView may not function as expected.
+
+• *Some features are not yet implemented.*
+
+---------------------------------------------------------------------------------------------------------------------
+
+#Update 1.1.2
+######January 12, 2016
+**Build Identifier:** P019065.1321b
+
+**Technical Version Number:** 1.1.2.623
+
+
+##Changes in this Version
+
+• Proximity detection has been enabled.
+
+• Remember Me button now functions as expected.
+
+• Significantly improved performance when logging in.
+
+• Removed unnecessary function and changed misleading/undesirable dialogue.
+
+• *Various bug fixes.*
+
+
+##Known Issues
+
+• Tapping ‘return’ after entering text into the UITextField on the proximity detection override UIAlertView does not generate the expected response.
+
+• The proximity detection override UIAlertView UITextField may not automatically become the first responder when displayed.
+
+• The proximity detection UIAlertView may not function as expected.
+
+• The proximity detection override UIAlertView may not function as expected.
+
+• *Some features are not yet implemented.*
+
+---------------------------------------------------------------------------------------------------------------------
+
 #Update 1.0.1
 ######January 12, 2016
 **Build Identifier:** P018040.1201a
@@ -52,7 +119,7 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 
 ##Changes in this Version
 
-• Added support for iOS 8.*
+• Added support for iOS 8.
 
 • Added day counter.
 
