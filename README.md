@@ -15,7 +15,6 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 **Robotics Attendance** tracks various data about your reported attendance at robotics, allowing you to judge for yourself how complete your dossier is.
 
 ---------------------------------------------------------------------------------------------------------------------
-
 #Update 1.0.1
 ######January 12, 2016
 **Build Identifier:** P018040.1201a
@@ -29,7 +28,7 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 
 • Sign Out of Application button now functions as expected.
 
-• Various bug fixes.
+• *Various bug fixes.*
 
 
 ##Known Issues
@@ -40,7 +39,43 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 
 • Some UIAlertView buttons are not interactive, or do not function as expected.
 
-• Some features are not yet implemented.
+• *Some features are not yet implemented.*
+
+---------------------------------------------------------------------------------------------------------------------
+
+#Update 1.0.0
+######January 10, 2016
+**Build Identifier:** P0114638.2192a
+
+**Technical Version Number:** 1.0.0.364
+
+
+##Changes in this Version
+
+• Added support for iOS 8.*
+
+• Added day counter.
+
+• Finalized sign in/sign out feature.
+
+• Added clean tracker.
+
+• Added robofish.
+
+• *Various bug fixes.*
+
+
+##Known Issues
+
+• Forget Password button does not function.
+
+• Create Account button does not function.
+
+• Some UIAlertView buttons are not interactive, or do not function as expected.
+
+• Sign Out of Application button does not function.
+
+• *Some features are not yet implemented.*
 
 ---------------------------------------------------------------------------------------------------------------------
 
