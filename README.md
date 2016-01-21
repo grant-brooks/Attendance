@@ -18,20 +18,24 @@ The interface design of **Attendance** is simple in its aesthetic familiarity, y
 
 #Update 1.0.1
 ######January 12, 2016
-Build 383
+Build Identifier:
+P018040.1201a
+
+Technical Version Number:
+1.0.0.383
 
 ##Changes in this Version
 
-###Addresses issue of users with certain passwords being unable to log in.
-###Sign Out of Application button now functions as expected.
-###Various bug fixes.
+• Addresses issue of users with certain passwords being unable to log in.
+• Sign Out of Application button now functions as expected.
+• Various bug fixes.
 
 ##Known Issues
 
-###Forget Password button does not function.
-###Create Account button does not function.
-###Some UIAlertView buttons are not interactive, or do not function as expected.
-###Some features are not yet implemented.
+• Forget Password button does not function.
+• Create Account button does not function.
+• Some UIAlertView buttons are not interactive, or do not function as expected.
+• Some features are not yet implemented.
 
 ---------------------------------------------------------------------------------------------------------------------
 
