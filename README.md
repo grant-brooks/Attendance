@@ -18,11 +18,9 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 
 #Update 1.0.1
 ######January 12, 2016
-Build Identifier:
-P018040.1201a
+**Build Identifier:** P018040.1201a
 
-Technical Version Number:
-1.0.0.383
+**Technical Version Number:** 1.0.0.383
 
 
 ##Changes in this Version
