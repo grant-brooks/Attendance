@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Qc6-9U-LQp">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Bariol_Bold.otf">
+            <string>Bariol-Bold</string>
+            <string>Bariol-Bold</string>
+            <string>Bariol-Bold</string>
+        </mutableArray>
+        <mutableArray key="lato-regular.ttf">
+            <string>Lato-Regular</string>
+            <string>Lato-Regular</string>
+            <string>Lato-Regular</string>
+            <string>Lato-Regular</string>
+        </mutableArray>
+        <mutableArray key="manteka.ttf">
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+            <string>Manteka</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Test Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TestController" customModule="Attendance" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uNv-kr-H6Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="NW7-V7-w3g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Nj-fB-EZB">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jp3-qj-JB8">
+                                <rect key="frame" x="191" y="361" width="387" height="310"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SD3-IB-hVi" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="199" y="272" width="180" height="30"/>
+                                        <state key="normal" title="Create Account">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buV-nd-kWL" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="27" y="213" width="333" height="45"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="519-fs-m2y" customClass="BCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="27" y="213" width="333" height="45"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3R7-Bu-lYL" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="272" width="180" height="30"/>
+                                        <state key="normal" title="Forgot Password">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKD-hN-f9V" customClass="BCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="272" width="180" height="30"/>
+                                        <state key="normal" title="Forgot Password">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkQ-X5-nD4" customClass="BCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="199" y="272" width="180" height="30"/>
+                                        <state key="normal" title="Create Account">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1e-L4-dLv" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="371" height="44.5"/>
+                                        <state key="normal" title="Auto Login"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVG-u0-HNa" customClass="BCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="371" height="45.5"/>
+                                        <state key="normal" title="Auto Login"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="appleseedj" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hkU-ur-2kU">
+                                <rect key="frame" x="260" y="426" width="306" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.45882352939999999" green="0.46274509800000002" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Required" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N7T-Qb-zpg">
+                                <rect key="frame" x="260" y="502" width="306" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go" secureTextEntry="YES"/>
+                            </textField>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOB-tE-eoH">
+                                <rect key="frame" x="203" y="502" width="50" height="60"/>
+                                <subviews>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="ARB-Sm-Dhk">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Mf-Lf-STV">
+                                <rect key="frame" x="203" y="426" width="50" height="60"/>
+                                <subviews>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="fG8-9u-y2o">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OyT-B9-aLj">
+                                <rect key="frame" x="253" y="502" width="7" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EH8-aI-Fsk">
+                                <rect key="frame" x="253" y="426" width="7" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68U-Pj-4qR">
+                                <rect key="frame" x="718" y="24" width="22" height="22"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334.07999999999998" y="4104.5333333333338"/>
+        </scene>
+        <!--Menu Controller-->
+        <scene sceneID="uyB-ki-BIy">
+            <objects>
+                <viewController title="Menu Controller" id="Odw-Wj-ada" customClass="MEC" customModule="Attendance" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ukK-Y2-XgL"/>
+                        <viewControllerLayoutGuide type="bottom" id="k52-ho-SCJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dVE-ke-08I">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="1QI-cZ-8zd">
+                                <rect key="frame" x="0.0" y="-16" width="768" height="1056"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="John Appleseed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4N-9X-ds3">
+                                <rect key="frame" x="20" y="28" width="728" height="70"/>
+                                <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="50"/>
+                                <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OAV-ug-hxG">
+                                <rect key="frame" x="20" y="160" width="350" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyF-NL-Pn5" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="160" height="30"/>
+                                        <state key="normal" title="I'M AT ROBOTICS">
+                                            <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYg-XI-gni" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="46" width="334" height="46"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="SIGN OUT OF APPLICATION">
+                                            <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nl-Be-Xh6" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="182" y="8" width="160" height="30"/>
+                                        <state key="normal" title="I LEFT ROBOTICS">
+                                            <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvt-us-Kf0">
+                                <rect key="frame" x="398" y="160" width="350" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Logged" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ww-MG-xhc">
+                                        <rect key="frame" x="8" y="8" width="100" height="20"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="15"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Attended" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMa-Em-fla">
+                                        <rect key="frame" x="125" y="8" width="100" height="20"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="15"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cleaned" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3G1-w1-seG">
+                                        <rect key="frame" x="242" y="8" width="100" height="20"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="15"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Vp-04-czb">
+                                        <rect key="frame" x="116" y="0.0" width="1" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UMW-Zp-zwV">
+                                        <rect key="frame" x="233" y="0.0" width="1" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9h 41m" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wK8-c1-ZrI">
+                                        <rect key="frame" x="8" y="36" width="100" height="56"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yesterday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zW0-Yz-M2P">
+                                        <rect key="frame" x="125" y="36" width="100" height="56"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4 times" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YBc-KG-fB3">
+                                        <rect key="frame" x="242" y="36" width="100" height="56"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7fY-24-Mmw">
+                                <rect key="frame" x="135" y="122" width="120" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Options" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG9-sd-PQJ">
+                                        <rect key="frame" x="8" y="4" width="104" height="21"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="17"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QqK-n1-nx6">
+                                <rect key="frame" x="519" y="122" width="120" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Statistics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX1-VX-iEY">
+                                        <rect key="frame" x="8" y="4" width="104" height="21"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="17"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9i8-LV-zAc">
+                                <rect key="frame" x="324" y="335" width="120" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsP-jJ-LwS">
+                                        <rect key="frame" x="8" y="4" width="104" height="21"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="17"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ih-Fv-3hq">
+                                <rect key="frame" x="145" y="373" width="478" height="601"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M9e-Fm-G2v">
+                                        <rect key="frame" x="239" y="8" width="1" height="585"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVh-V6-qIH" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="57" width="223" height="45"/>
+                                        <state key="normal" title="CONTACT MR. PERONI">
+                                            <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tE-0J-JKu" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="247" width="223" height="45"/>
+                                        <state key="normal" title="GO TO TEAM SITE">
+                                            <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Robotics is held on Tuesdays from 3:05 - 4:30 and Wednesdays from 3:05 - 5:00 before build season unless otherwise stated." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGn-gL-Ssz">
+                                        <rect key="frame" x="248" y="57" width="222" height="100"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTm-Ui-Xj4">
+                                        <rect key="frame" x="248" y="165" width="222" height="100"/>
+                                        <string key="text">During build season, times and dates fluctuate and may be fluid. For most days, assume normal hours unless you are prompted to stay longer.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LUA-cX-uOY">
+                                        <rect key="frame" x="8" y="300" width="462" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="U N I M P L E M E N T E D" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AA-7E-dsb">
+                                        <rect key="frame" x="8" y="309" width="223" height="283.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="U N I M P L E M E N T E D" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpX-0T-JZj">
+                                        <rect key="frame" x="248" y="309" width="222" height="283.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Local Actions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6z-QA-WQN">
+                                        <rect key="frame" x="8" y="10" width="223" height="20"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="15"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Local Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMk-p0-e9I">
+                                        <rect key="frame" x="247" y="10" width="223" height="20"/>
+                                        <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="15"/>
+                                        <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuC-h0-nCZ" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="184" width="223" height="45"/>
+                                        <state key="normal" title="GO TO SCHOOL SITE">
+                                            <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFL-Mh-Eav" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="121" width="223" height="45"/>
+                                        <state key="normal" title="CONTACT MS. LEMAR">
+                                            <color key="titleShadowColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Glub glub glub*" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tnx-yN-gRC">
+                                <rect key="frame" x="578" y="288" width="160" height="20"/>
+                                <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="17"/>
+                                <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Vy-Xb-9d3">
+                                <rect key="frame" x="308" y="268" width="260" height="59"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="r65-uy-Yyk" appends="YES" id="K2b-07-dt1"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9k-Tb-2j4">
+                                <rect key="frame" x="578" y="994" width="180" height="20"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="Bariol-Bold" family="Bariol" pointSize="17"/>
+                                <state key="normal" title="1.0.0.100">
+                                    <color key="titleColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buildButton:" destination="Odw-Wj-ada" eventType="touchUpInside" id="BKf-sv-tHp"/>
+                                    <outletCollection property="gestureRecognizers" destination="Mbf-bl-2en" appends="YES" id="XtG-0U-FCg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYh-xY-yTl">
+                                <rect key="frame" x="708" y="987" width="50" height="27"/>
+                                <state key="normal" image="NT .png"/>
+                                <connections>
+                                    <action selector="ntButton:" destination="Odw-Wj-ada" eventType="touchUpInside" id="zkt-vL-ZON"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="buildButton" destination="m9k-Tb-2j4" id="uw0-9q-trA"/>
+                        <outlet property="emailLemarButton" destination="nFL-Mh-Eav" id="1Pe-aJ-6xc"/>
+                        <outlet property="emailPeroniButton" destination="CVh-V6-qIH" id="tSV-NY-gTa"/>
+                        <outlet property="firstEncloserView" destination="OAV-ug-hxG" id="1nJ-3y-XRx"/>
+                        <outlet property="firstTitleView" destination="7fY-24-Mmw" id="HhI-XI-SO7"/>
+                        <outlet property="glubLabel" destination="Tnx-yN-gRC" id="oGi-iX-OSM"/>
+                        <outlet property="goToSchoolSiteButton" destination="MuC-h0-nCZ" id="e5t-EW-6EV"/>
+                        <outlet property="goToWebsiteButton" destination="5tE-0J-JKu" id="iug-AM-gwh"/>
+                        <outlet property="lastAttendedLabel" destination="zW0-Yz-M2P" id="Q3y-wS-8mr"/>
+                        <outlet property="markPresentButton" destination="ZYg-XI-gni" id="Cdc-tx-r4h"/>
+                        <outlet property="ntButton" destination="lYh-xY-yTl" id="enG-0h-xc1"/>
+                        <outlet property="roboFishImageView" destination="7Vy-Xb-9d3" id="tfK-jt-zcY"/>
+                        <outlet property="robofishFeedGesture" destination="r65-uy-Yyk" id="bbx-AZ-KJE"/>
+                        <outlet property="secondEncloserView" destination="gvt-us-Kf0" id="v6n-dq-9RS"/>
+                        <outlet property="secondTitleView" destination="QqK-n1-nx6" id="QOl-AW-MSI"/>
+                        <outlet property="signOutAndEndSessionButton" destination="3nl-Be-Xh6" id="qXj-zY-Pxw"/>
+                        <outlet property="signOutButton" destination="LyF-NL-Pn5" id="TQB-or-6qp"/>
+                        <outlet property="studentNameLabel" destination="B4N-9X-ds3" id="Qnp-Vw-PDi"/>
+                        <outlet property="thirdEncloserView" destination="0Ih-Fv-3hq" id="4cy-ah-VSu"/>
+                        <outlet property="thirdTitleView" destination="9i8-LV-zAc" id="cDe-MX-gGr"/>
+                        <outlet property="timeLoggedLabel" destination="wK8-c1-ZrI" id="NUQ-Bg-JF6"/>
+                        <outlet property="timesCleanedLabel" destination="YBc-KG-fB3" id="Qit-9r-yF8"/>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="backToLoginSegueFromMenu" id="hOO-wi-QxU"/>
+                        <segue destination="5hq-c4-DLp" kind="modal" identifier="attendanceSegueFromMenu" modalTransitionStyle="crossDissolve" id="pDd-ys-97f"/>
+                        <segue destination="Qc6-9U-LQp" kind="modal" identifier="backToLoginSegueFromAttendance" modalTransitionStyle="crossDissolve" id="7rC-ag-ccd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sxH-0d-iDB" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="r65-uy-Yyk">
+                    <connections>
+                        <action selector="robofishFeedGesture:" destination="Odw-Wj-ada" id="yV8-s4-9qI"/>
+                        <outlet property="delegate" destination="Odw-Wj-ada" id="TYE-tw-uLh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Mbf-bl-2en">
+                    <connections>
+                        <action selector="longPress:" destination="Odw-Wj-ada" id="f73-sn-pR0"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1441" y="472"/>
+        </scene>
+        <!--Attendance Controller-->
+        <scene sceneID="BXc-xG-1hi">
+            <objects>
+                <viewController title="Attendance Controller" id="5hq-c4-DLp" customClass="AC" customModule="Attendance" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cU5-ID-YuF"/>
+                        <viewControllerLayoutGuide type="bottom" id="wx6-az-rIY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ogK-Vz-AML">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="fin-v8-wj3">
+                                <rect key="frame" x="0.0" y="-16" width="768" height="1056"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdY-Vq-7MY">
+                                <rect key="frame" x="202" y="246" width="123" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="U010000.00a" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4t-t6-Sr0">
+                                <rect key="frame" x="558" y="986" width="200" height="30"/>
+                                <fontDescription key="fontDescription" name="Bariol-Bold" family="Bariol" pointSize="17"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Attendance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDV-kx-ARF">
+                                <rect key="frame" x="20" y="28" width="728" height="70"/>
+                                <fontDescription key="fontDescription" name="Manteka" family="Manteka" pointSize="50"/>
+                                <color key="textColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="buildLabel" destination="b4t-t6-Sr0" id="PPR-Md-Xku"/>
+                        <outlet property="signOutWCB" destination="qdY-Vq-7MY" id="d2U-As-1SB"/>
+                        <segue destination="Odw-Wj-ada" kind="modal" identifier="backToMenuSegueFromAttendance" id="F1r-JR-W44"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qW1-aI-Rt1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2681.5999999999999" y="500.05333333333334"/>
+        </scene>
+        <!--Test Controller-->
+        <scene sceneID="QHz-4H-fJS">
+            <objects>
+                <viewController id="Qc6-9U-LQp" customClass="TestController" customModule="Attendance" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OpX-da-H1H"/>
+                        <viewControllerLayoutGuide type="bottom" id="hWV-aN-qCD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9YN-gz-Aw6">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E3b-JH-fzM">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1b-SP-xnC">
+                                <rect key="frame" x="191" y="411" width="387" height="220"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cv-Vn-9LB" customClass="WCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="163" width="356" height="45"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fR7-Jw-iVI" customClass="BCB" customModule="Attendance" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="163" width="356" height="45"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="appleseedj" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="khE-ac-bgw">
+                                <rect key="frame" x="260" y="426" width="306" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.45882352939999999" green="0.46274509800000002" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Qc6-9U-LQp" id="deF-pA-tq6"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Required" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ovz-El-dfR">
+                                <rect key="frame" x="260" y="502" width="306" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Qc6-9U-LQp" id="Wrc-o1-tJ9"/>
+                                </connections>
+                            </textField>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FH6-gs-Hgo">
+                                <rect key="frame" x="203" y="502" width="50" height="60"/>
+                                <subviews>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="cUU-N4-2yE">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v9P-Ko-hI4">
+                                <rect key="frame" x="203" y="426" width="50" height="60"/>
+                                <subviews>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="6Wu-oI-wpW">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZr-Ql-qrh">
+                                <rect key="frame" x="253" y="502" width="7" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLl-Pv-5pQ">
+                                <rect key="frame" x="253" y="426" width="7" height="60"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tt3-uR-Adl" customClass="SSRadioButton" customModule="Attendance" customModuleProvider="target">
+                                <rect key="frame" x="448" y="639" width="130" height="30"/>
+                                <color key="tintColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Remember Me">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="circleRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                        <color key="value" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="rememberMeButton:" destination="Qc6-9U-LQp" eventType="touchUpInside" id="gzM-A1-WJx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cv-2x-jIh">
+                                <rect key="frame" x="578" y="994" width="180" height="20"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="Bariol-Bold" family="Bariol" pointSize="17"/>
+                                <state key="normal" title="1.0.0.100">
+                                    <color key="titleColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buildButton:" destination="Qc6-9U-LQp" eventType="touchUpInside" id="74I-79-7Ye"/>
+                                    <action selector="buildButton:" destination="Odw-Wj-ada" eventType="touchUpInside" id="fbn-2h-EHw"/>
+                                    <outletCollection property="gestureRecognizers" destination="IOu-sM-Ebe" appends="YES" id="KVc-XC-dER"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Et-O5-0QV">
+                                <rect key="frame" x="708" y="987" width="50" height="27"/>
+                                <state key="normal" image="NT .png"/>
+                                <connections>
+                                    <action selector="ntButton:" destination="Qc6-9U-LQp" eventType="touchUpInside" id="8wO-KW-pFD"/>
+                                    <action selector="ntButton:" destination="Odw-Wj-ada" eventType="touchUpInside" id="Ct7-uY-OMx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="E3b-JH-fzM" id="H3H-a0-mhL"/>
+                        <outlet property="behindView" destination="j1b-SP-xnC" id="p7F-hn-c1M"/>
+                        <outlet property="buildButton" destination="0Cv-2x-jIh" id="zFP-MZ-eR9"/>
+                        <outlet property="enclosingLockView" destination="FH6-gs-Hgo" id="U7k-et-dZK"/>
+                        <outlet property="enclosingProfileView" destination="v9P-Ko-hI4" id="Deh-2x-nH3"/>
+                        <outlet property="enclosingSignInView" destination="j1b-SP-xnC" id="lzG-fT-BsB"/>
+                        <outlet property="hiddenPasswordButton" destination="AZr-Ql-qrh" id="46P-O8-gph"/>
+                        <outlet property="hiddenProfileButton" destination="yLl-Pv-5pQ" id="Vp7-Ef-bCc"/>
+                        <outlet property="ntButton" destination="2Et-O5-0QV" id="NUa-yV-Qth"/>
+                        <outlet property="passwordImageView" destination="cUU-N4-2yE" id="nXM-Je-e8X"/>
+                        <outlet property="passwordTextField" destination="ovz-El-dfR" id="6EW-Vg-jVi"/>
+                        <outlet property="rememberMeButton" destination="tt3-uR-Adl" id="97n-04-X6D"/>
+                        <outlet property="signInBCB" destination="fR7-Jw-iVI" id="6uX-JX-rXD"/>
+                        <outlet property="signInWCB" destination="7cv-Vn-9LB" id="EhA-Bs-ngi"/>
+                        <outlet property="userImageView" destination="6Wu-oI-wpW" id="VMY-bb-IW6"/>
+                        <outlet property="userNameTextField" destination="khE-ac-bgw" id="ii7-Cw-779"/>
+                        <segue destination="Odw-Wj-ada" kind="modal" identifier="menuSegueFromLogin" id="YFn-uL-zP4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N7r-RK-YLW" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="IOu-sM-Ebe">
+                    <connections>
+                        <action selector="longPress:" destination="Qc6-9U-LQp" id="B4g-qO-oye"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="349" y="472"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="612" height="792"/>
+        <image name="Lock" width="500" height="500"/>
+        <image name="NT .png" width="996" height="545"/>
+        <image name="Profile" width="100" height="100"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YFn-uL-zP4"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680FB06F1BCC72E5000AE247 /* White-Circular-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB06E1BCC72E5000AE247 /* White-Circular-Button.swift */; };
+		680FB0711BCC7F25000AE247 /* Black-Circular-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB0701BCC7F25000AE247 /* Black-Circular-Button.swift */; };
+		680FB0761BCC81C7000AE247 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB0751BCC81C7000AE247 /* File.swift */; };
+		680FB0941BCC8F80000AE247 /* Sign In Images in Resources */ = {isa = PBXBuildFile; fileRef = 680FB0931BCC8F80000AE247 /* Sign In Images */; };
+		682574791C45948D00BB6719 /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 682574761C45948C00BB6719 /* Home.gpx */; };
+		6825747A1C45948D00BB6719 /* North Shore Middle School.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 682574771C45948C00BB6719 /* North Shore Middle School.gpx */; };
+		6825747B1C45948D00BB6719 /* Odin's Bounty.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 682574781C45948C00BB6719 /* Odin's Bounty.gpx */; };
+		682822501C5417AB001B9255 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6828224F1C5417AB001B9255 /* Parse.framework */; };
+		684545491BE2F1F20014CA30 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545351BE2F1F20014CA30 /* FrameView.swift */; };
+		6845454A1BE2F1F20014CA30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684545361BE2F1F20014CA30 /* Images.xcassets */; };
+		6845454B1BE2F1F20014CA30 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 684545371BE2F1F20014CA30 /* Info.plist */; };
+		6845454C1BE2F1F20014CA30 /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545391BE2F1F20014CA30 /* PKHUD.swift */; };
+		6845454D1BE2F1F20014CA30 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845453A1BE2F1F20014CA30 /* PKHUDAnimating.swift */; };
+		6845454E1BE2F1F20014CA30 /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845453B1BE2F1F20014CA30 /* PKHUDAssets.swift */; };
+		6845454F1BE2F1F20014CA30 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845453C1BE2F1F20014CA30 /* PKHUDErrorView.swift */; };
+		684545501BE2F1F20014CA30 /* PKHUDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845453D1BE2F1F20014CA30 /* PKHUDImageView.swift */; };
+		684545511BE2F1F20014CA30 /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845453E1BE2F1F20014CA30 /* PKHUDProgressView.swift */; };
+		684545521BE2F1F20014CA30 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845453F1BE2F1F20014CA30 /* PKHUDSquareBaseView.swift */; };
+		684545531BE2F1F20014CA30 /* PKHUDStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545401BE2F1F20014CA30 /* PKHUDStatusView.swift */; };
+		684545541BE2F1F20014CA30 /* PKHUDSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545411BE2F1F20014CA30 /* PKHUDSubtitleView.swift */; };
+		684545551BE2F1F20014CA30 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545421BE2F1F20014CA30 /* PKHUDSuccessView.swift */; };
+		684545561BE2F1F20014CA30 /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545431BE2F1F20014CA30 /* PKHUDSystemActivityIndicatorView.swift */; };
+		684545571BE2F1F20014CA30 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545441BE2F1F20014CA30 /* PKHUDTextView.swift */; };
+		684545581BE2F1F20014CA30 /* PKHUDTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545451BE2F1F20014CA30 /* PKHUDTitleView.swift */; };
+		684545591BE2F1F20014CA30 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545461BE2F1F20014CA30 /* PKHUDWideBaseView.swift */; };
+		6845455A1BE2F1F20014CA30 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545471BE2F1F20014CA30 /* Window.swift */; };
+		6845455B1BE2F1F20014CA30 /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545481BE2F1F20014CA30 /* WindowRootViewController.swift */; };
+		6845455F1BE2F3840014CA30 /* Incorrect-Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6845455C1BE2F3840014CA30 /* Incorrect-Profile.png */; };
+		684545601BE2F3840014CA30 /* Correct-Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6845455D1BE2F3840014CA30 /* Correct-Profile.png */; };
+		684545611BE2F3840014CA30 /* Correct-Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 6845455E1BE2F3840014CA30 /* Correct-Password.png */; };
+		684545631BE2F3880014CA30 /* Incorrect-Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 684545621BE2F3880014CA30 /* Incorrect-Password.png */; };
+		684545651BE2F3AA0014CA30 /* Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 684545641BE2F3AA0014CA30 /* Check.png */; };
+		684545681BE2FD120014CA30 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545661BE2FD120014CA30 /* SSRadioButton.swift */; };
+		684545691BE2FD120014CA30 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545671BE2FD120014CA30 /* SSRadioButtonsController.swift */; };
+		68620ACA1BBDF8FA00E3DB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68620AC91BBDF8FA00E3DB46 /* AppDelegate.swift */; };
+		68620ACF1BBDF8FA00E3DB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68620ACD1BBDF8FA00E3DB46 /* Main.storyboard */; };
+		68620AD11BBDF8FA00E3DB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68620AD01BBDF8FA00E3DB46 /* Assets.xcassets */; };
+		68620AD41BBDF8FA00E3DB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68620AD21BBDF8FA00E3DB46 /* LaunchScreen.storyboard */; };
+		687CB1881BE473FE00F284AB /* Bariol_Bold_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 687CB1841BE473FE00F284AB /* Bariol_Bold_Italic.otf */; };
+		687CB1891BE473FE00F284AB /* Bariol_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 687CB1851BE473FE00F284AB /* Bariol_Bold.otf */; };
+		687CB18A1BE473FE00F284AB /* Bariol_Regular_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 687CB1861BE473FE00F284AB /* Bariol_Regular_Italic.otf */; };
+		687CB18B1BE473FE00F284AB /* Bariol_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 687CB1871BE473FE00F284AB /* Bariol_Regular.otf */; };
+		6898F7F31C42B7F400F62EA3 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898F7F21C42B7F400F62EA3 /* UIImage+Gif.swift */; };
+		6898F7F51C42B88D00F62EA3 /* robofish.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6898F7F41C42B88D00F62EA3 /* robofish.gif */; };
+		68AB37F01BE40BAE00B58F70 /* manteka.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68AB37EF1BE40BAE00B58F70 /* manteka.ttf */; };
+		68AC234D1C4718AB0020B3A9 /* NT .png in Resources */ = {isa = PBXBuildFile; fileRef = 68AC234C1C4718AB0020B3A9 /* NT .png */; };
+		68AC234F1C4720760020B3A9 /* Lubalin Graph Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68AC234E1C4720760020B3A9 /* Lubalin Graph Bold.ttf */; };
+		68F785041BBF1A5B00A43D85 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785031BBF1A5B00A43D85 /* Bolts.framework */; };
+		68F785061BBF1A7A00A43D85 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785051BBF1A7A00A43D85 /* AudioToolbox.framework */; };
+		68F785081BBF1A7E00A43D85 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785071BBF1A7E00A43D85 /* CFNetwork.framework */; };
+		68F7850A1BBF1A8500A43D85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785091BBF1A8500A43D85 /* CoreGraphics.framework */; };
+		68F7850C1BBF1A8A00A43D85 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F7850B1BBF1A8A00A43D85 /* CoreLocation.framework */; };
+		68F7850E1BBF1A9000A43D85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F7850D1BBF1A9000A43D85 /* QuartzCore.framework */; };
+		68F785101BBF1A9600A43D85 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F7850F1BBF1A9600A43D85 /* Security.framework */; };
+		68F785121BBF1A9B00A43D85 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785111BBF1A9B00A43D85 /* StoreKit.framework */; };
+		68F785141BBF1AA100A43D85 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785131BBF1AA100A43D85 /* SystemConfiguration.framework */; };
+		68F785161BBF1AB000A43D85 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785151BBF1AB000A43D85 /* libsqlite3.tbd */; };
+		68F785181BBF1AB500A43D85 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785171BBF1AB500A43D85 /* libz.tbd */; };
+		68F7851A1BBF20D600A43D85 /* Menu-Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F785191BBF20D600A43D85 /* Menu-Controller.swift */; };
+		68F7851C1BBF217900A43D85 /* Attendance-Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F7851B1BBF217900A43D85 /* Attendance-Controller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		680FB06E1BCC72E5000AE247 /* White-Circular-Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "White-Circular-Button.swift"; sourceTree = "<group>"; };
+		680FB0701BCC7F25000AE247 /* Black-Circular-Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Black-Circular-Button.swift"; sourceTree = "<group>"; };
+		680FB0751BCC81C7000AE247 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		680FB0931BCC8F80000AE247 /* Sign In Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sign In Images"; sourceTree = "<group>"; };
+		682574761C45948C00BB6719 /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
+		682574771C45948C00BB6719 /* North Shore Middle School.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "North Shore Middle School.gpx"; sourceTree = "<group>"; };
+		682574781C45948C00BB6719 /* Odin's Bounty.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Odin's Bounty.gpx"; sourceTree = "<group>"; };
+		6828224F1C5417AB001B9255 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		684545351BE2F1F20014CA30 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		684545361BE2F1F20014CA30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		684545371BE2F1F20014CA30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PKHUD/Info.plist; sourceTree = "<group>"; };
+		684545381BE2F1F20014CA30 /* PKHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		684545391BE2F1F20014CA30 /* PKHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		6845453A1BE2F1F20014CA30 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		6845453B1BE2F1F20014CA30 /* PKHUDAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		6845453C1BE2F1F20014CA30 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		6845453D1BE2F1F20014CA30 /* PKHUDImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDImageView.swift; path = PKHUD/PKHUDImageView.swift; sourceTree = "<group>"; };
+		6845453E1BE2F1F20014CA30 /* PKHUDProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		6845453F1BE2F1F20014CA30 /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		684545401BE2F1F20014CA30 /* PKHUDStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDStatusView.swift; path = PKHUD/PKHUDStatusView.swift; sourceTree = "<group>"; };
+		684545411BE2F1F20014CA30 /* PKHUDSubtitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDSubtitleView.swift; path = PKHUD/PKHUDSubtitleView.swift; sourceTree = "<group>"; };
+		684545421BE2F1F20014CA30 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		684545431BE2F1F20014CA30 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		684545441BE2F1F20014CA30 /* PKHUDTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		684545451BE2F1F20014CA30 /* PKHUDTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDTitleView.swift; path = PKHUD/PKHUDTitleView.swift; sourceTree = "<group>"; };
+		684545461BE2F1F20014CA30 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+		684545471BE2F1F20014CA30 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		684545481BE2F1F20014CA30 /* WindowRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		6845455C1BE2F3840014CA30 /* Incorrect-Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Incorrect-Profile.png"; sourceTree = "<group>"; };
+		6845455D1BE2F3840014CA30 /* Correct-Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Correct-Profile.png"; sourceTree = "<group>"; };
+		6845455E1BE2F3840014CA30 /* Correct-Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Correct-Password.png"; sourceTree = "<group>"; };
+		684545621BE2F3880014CA30 /* Incorrect-Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Incorrect-Password.png"; sourceTree = "<group>"; };
+		684545641BE2F3AA0014CA30 /* Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Check.png; sourceTree = "<group>"; };
+		684545661BE2FD120014CA30 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		684545671BE2FD120014CA30 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		68620AC61BBDF8FA00E3DB46 /* Attendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68620AC91BBDF8FA00E3DB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68620ACE1BBDF8FA00E3DB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68620AD01BBDF8FA00E3DB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68620AD31BBDF8FA00E3DB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68620AD51BBDF8FA00E3DB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687CB1841BE473FE00F284AB /* Bariol_Bold_Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Bold_Italic.otf; sourceTree = "<group>"; };
+		687CB1851BE473FE00F284AB /* Bariol_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Bold.otf; sourceTree = "<group>"; };
+		687CB1861BE473FE00F284AB /* Bariol_Regular_Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Regular_Italic.otf; sourceTree = "<group>"; };
+		687CB1871BE473FE00F284AB /* Bariol_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Regular.otf; sourceTree = "<group>"; };
+		6898F7F21C42B7F400F62EA3 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		6898F7F41C42B88D00F62EA3 /* robofish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = robofish.gif; sourceTree = "<group>"; };
+		68AB37EF1BE40BAE00B58F70 /* manteka.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = manteka.ttf; sourceTree = "<group>"; };
+		68AC234C1C4718AB0020B3A9 /* NT .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NT .png"; sourceTree = "<group>"; };
+		68AC234E1C4720760020B3A9 /* Lubalin Graph Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lubalin Graph Bold.ttf"; sourceTree = "<group>"; };
+		68F785031BBF1A5B00A43D85 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		68F785051BBF1A7A00A43D85 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		68F785071BBF1A7E00A43D85 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		68F785091BBF1A8500A43D85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68F7850B1BBF1A8A00A43D85 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		68F7850D1BBF1A9000A43D85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		68F7850F1BBF1A9600A43D85 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		68F785111BBF1A9B00A43D85 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		68F785131BBF1AA100A43D85 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		68F785151BBF1AB000A43D85 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		68F785171BBF1AB500A43D85 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		68F785191BBF20D600A43D85 /* Menu-Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Menu-Controller.swift"; sourceTree = "<group>"; wrapsLines = 1; };
+		68F7851B1BBF217900A43D85 /* Attendance-Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Attendance-Controller.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68620AC31BBDF8FA00E3DB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F785181BBF1AB500A43D85 /* libz.tbd in Frameworks */,
+				68F785161BBF1AB000A43D85 /* libsqlite3.tbd in Frameworks */,
+				68F785141BBF1AA100A43D85 /* SystemConfiguration.framework in Frameworks */,
+				68F785121BBF1A9B00A43D85 /* StoreKit.framework in Frameworks */,
+				68F785101BBF1A9600A43D85 /* Security.framework in Frameworks */,
+				68F7850E1BBF1A9000A43D85 /* QuartzCore.framework in Frameworks */,
+				68F7850C1BBF1A8A00A43D85 /* CoreLocation.framework in Frameworks */,
+				68F7850A1BBF1A8500A43D85 /* CoreGraphics.framework in Frameworks */,
+				68F785081BBF1A7E00A43D85 /* CFNetwork.framework in Frameworks */,
+				68F785061BBF1A7A00A43D85 /* AudioToolbox.framework in Frameworks */,
+				682822501C5417AB001B9255 /* Parse.framework in Frameworks */,
+				68F785041BBF1A5B00A43D85 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68620ABD1BBDF8FA00E3DB46 = {
+			isa = PBXGroup;
+			children = (
+				68F785171BBF1AB500A43D85 /* libz.tbd */,
+				68F785151BBF1AB000A43D85 /* libsqlite3.tbd */,
+				68F785131BBF1AA100A43D85 /* SystemConfiguration.framework */,
+				68F785111BBF1A9B00A43D85 /* StoreKit.framework */,
+				68F7850F1BBF1A9600A43D85 /* Security.framework */,
+				68F7850D1BBF1A9000A43D85 /* QuartzCore.framework */,
+				68F7850B1BBF1A8A00A43D85 /* CoreLocation.framework */,
+				68F785091BBF1A8500A43D85 /* CoreGraphics.framework */,
+				68F785071BBF1A7E00A43D85 /* CFNetwork.framework */,
+				68F785051BBF1A7A00A43D85 /* AudioToolbox.framework */,
+				68620AC81BBDF8FA00E3DB46 /* Robitics Attendance */,
+				68620AC71BBDF8FA00E3DB46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68620AC71BBDF8FA00E3DB46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68620AC61BBDF8FA00E3DB46 /* Attendance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68620AC81BBDF8FA00E3DB46 /* Robitics Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				680FB0931BCC8F80000AE247 /* Sign In Images */,
+				68620AC91BBDF8FA00E3DB46 /* AppDelegate.swift */,
+				684545351BE2F1F20014CA30 /* FrameView.swift */,
+				684545361BE2F1F20014CA30 /* Images.xcassets */,
+				684545371BE2F1F20014CA30 /* Info.plist */,
+				684545381BE2F1F20014CA30 /* PKHUD.h */,
+				684545391BE2F1F20014CA30 /* PKHUD.swift */,
+				6845453A1BE2F1F20014CA30 /* PKHUDAnimating.swift */,
+				6845453B1BE2F1F20014CA30 /* PKHUDAssets.swift */,
+				6845453C1BE2F1F20014CA30 /* PKHUDErrorView.swift */,
+				6845453D1BE2F1F20014CA30 /* PKHUDImageView.swift */,
+				6845453E1BE2F1F20014CA30 /* PKHUDProgressView.swift */,
+				6845453F1BE2F1F20014CA30 /* PKHUDSquareBaseView.swift */,
+				684545401BE2F1F20014CA30 /* PKHUDStatusView.swift */,
+				684545411BE2F1F20014CA30 /* PKHUDSubtitleView.swift */,
+				684545421BE2F1F20014CA30 /* PKHUDSuccessView.swift */,
+				684545431BE2F1F20014CA30 /* PKHUDSystemActivityIndicatorView.swift */,
+				684545441BE2F1F20014CA30 /* PKHUDTextView.swift */,
+				684545451BE2F1F20014CA30 /* PKHUDTitleView.swift */,
+				684545461BE2F1F20014CA30 /* PKHUDWideBaseView.swift */,
+				684545471BE2F1F20014CA30 /* Window.swift */,
+				684545481BE2F1F20014CA30 /* WindowRootViewController.swift */,
+				684545661BE2FD120014CA30 /* SSRadioButton.swift */,
+				684545671BE2FD120014CA30 /* SSRadioButtonsController.swift */,
+				68F7851B1BBF217900A43D85 /* Attendance-Controller.swift */,
+				680FB0751BCC81C7000AE247 /* File.swift */,
+				682574761C45948C00BB6719 /* Home.gpx */,
+				682574771C45948C00BB6719 /* North Shore Middle School.gpx */,
+				682574781C45948C00BB6719 /* Odin's Bounty.gpx */,
+				68F785191BBF20D600A43D85 /* Menu-Controller.swift */,
+				680FB06E1BCC72E5000AE247 /* White-Circular-Button.swift */,
+				68AC234E1C4720760020B3A9 /* Lubalin Graph Bold.ttf */,
+				680FB0701BCC7F25000AE247 /* Black-Circular-Button.swift */,
+				6828224F1C5417AB001B9255 /* Parse.framework */,
+				6898F7F21C42B7F400F62EA3 /* UIImage+Gif.swift */,
+				6898F7F41C42B88D00F62EA3 /* robofish.gif */,
+				68620ACD1BBDF8FA00E3DB46 /* Main.storyboard */,
+				68AB37EF1BE40BAE00B58F70 /* manteka.ttf */,
+				687CB1841BE473FE00F284AB /* Bariol_Bold_Italic.otf */,
+				68AC234C1C4718AB0020B3A9 /* NT .png */,
+				687CB1851BE473FE00F284AB /* Bariol_Bold.otf */,
+				687CB1861BE473FE00F284AB /* Bariol_Regular_Italic.otf */,
+				687CB1871BE473FE00F284AB /* Bariol_Regular.otf */,
+				68620AD01BBDF8FA00E3DB46 /* Assets.xcassets */,
+				6845455C1BE2F3840014CA30 /* Incorrect-Profile.png */,
+				6845455D1BE2F3840014CA30 /* Correct-Profile.png */,
+				6845455E1BE2F3840014CA30 /* Correct-Password.png */,
+				684545621BE2F3880014CA30 /* Incorrect-Password.png */,
+				684545641BE2F3AA0014CA30 /* Check.png */,
+				68620AD21BBDF8FA00E3DB46 /* LaunchScreen.storyboard */,
+				68620AD51BBDF8FA00E3DB46 /* Info.plist */,
+				68F785031BBF1A5B00A43D85 /* Bolts.framework */,
+			);
+			path = "Robitics Attendance";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68620AC51BBDF8FA00E3DB46 /* Attendance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68620AD81BBDF8FA00E3DB46 /* Build configuration list for PBXNativeTarget "Attendance" */;
+			buildPhases = (
+				68620AC21BBDF8FA00E3DB46 /* Sources */,
+				68620AC31BBDF8FA00E3DB46 /* Frameworks */,
+				68620AC41BBDF8FA00E3DB46 /* Resources */,
+				687CB1831BE473A300F284AB /* Update Build Number */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Attendance;
+			productName = "Robitics Attendance";
+			productReference = 68620AC61BBDF8FA00E3DB46 /* Attendance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68620ABE1BBDF8FA00E3DB46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "NEOTechnica Corporation";
+				TargetAttributes = {
+					68620AC51BBDF8FA00E3DB46 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J33CQ6XHJS;
+					};
+				};
+			};
+			buildConfigurationList = 68620AC11BBDF8FA00E3DB46 /* Build configuration list for PBXProject "Robotics Attendance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68620ABD1BBDF8FA00E3DB46;
+			productRefGroup = 68620AC71BBDF8FA00E3DB46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68620AC51BBDF8FA00E3DB46 /* Attendance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68620AC41BBDF8FA00E3DB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AC234D1C4718AB0020B3A9 /* NT .png in Resources */,
+				682574791C45948D00BB6719 /* Home.gpx in Resources */,
+				68620AD41BBDF8FA00E3DB46 /* LaunchScreen.storyboard in Resources */,
+				68620AD11BBDF8FA00E3DB46 /* Assets.xcassets in Resources */,
+				684545631BE2F3880014CA30 /* Incorrect-Password.png in Resources */,
+				687CB18B1BE473FE00F284AB /* Bariol_Regular.otf in Resources */,
+				68AC234F1C4720760020B3A9 /* Lubalin Graph Bold.ttf in Resources */,
+				680FB0941BCC8F80000AE247 /* Sign In Images in Resources */,
+				6845454A1BE2F1F20014CA30 /* Images.xcassets in Resources */,
+				687CB1891BE473FE00F284AB /* Bariol_Bold.otf in Resources */,
+				68620ACF1BBDF8FA00E3DB46 /* Main.storyboard in Resources */,
+				6898F7F51C42B88D00F62EA3 /* robofish.gif in Resources */,
+				684545651BE2F3AA0014CA30 /* Check.png in Resources */,
+				6825747B1C45948D00BB6719 /* Odin's Bounty.gpx in Resources */,
+				6845454B1BE2F1F20014CA30 /* Info.plist in Resources */,
+				68AB37F01BE40BAE00B58F70 /* manteka.ttf in Resources */,
+				6825747A1C45948D00BB6719 /* North Shore Middle School.gpx in Resources */,
+				687CB1881BE473FE00F284AB /* Bariol_Bold_Italic.otf in Resources */,
+				687CB18A1BE473FE00F284AB /* Bariol_Regular_Italic.otf in Resources */,
+				684545601BE2F3840014CA30 /* Correct-Profile.png in Resources */,
+				6845455F1BE2F3840014CA30 /* Incorrect-Profile.png in Resources */,
+				684545611BE2F3840014CA30 /* Correct-Password.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		687CB1831BE473A300F284AB /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\nCFBundleVersionINCR=1.0.0\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68620AC21BBDF8FA00E3DB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684545581BE2F1F20014CA30 /* PKHUDTitleView.swift in Sources */,
+				684545591BE2F1F20014CA30 /* PKHUDWideBaseView.swift in Sources */,
+				6845454D1BE2F1F20014CA30 /* PKHUDAnimating.swift in Sources */,
+				684545551BE2F1F20014CA30 /* PKHUDSuccessView.swift in Sources */,
+				6898F7F31C42B7F400F62EA3 /* UIImage+Gif.swift in Sources */,
+				684545691BE2FD120014CA30 /* SSRadioButtonsController.swift in Sources */,
+				680FB06F1BCC72E5000AE247 /* White-Circular-Button.swift in Sources */,
+				684545491BE2F1F20014CA30 /* FrameView.swift in Sources */,
+				684545541BE2F1F20014CA30 /* PKHUDSubtitleView.swift in Sources */,
+				684545561BE2F1F20014CA30 /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				684545681BE2FD120014CA30 /* SSRadioButton.swift in Sources */,
+				6845454C1BE2F1F20014CA30 /* PKHUD.swift in Sources */,
+				680FB0761BCC81C7000AE247 /* File.swift in Sources */,
+				684545571BE2F1F20014CA30 /* PKHUDTextView.swift in Sources */,
+				684545521BE2F1F20014CA30 /* PKHUDSquareBaseView.swift in Sources */,
+				6845455B1BE2F1F20014CA30 /* WindowRootViewController.swift in Sources */,
+				684545501BE2F1F20014CA30 /* PKHUDImageView.swift in Sources */,
+				684545531BE2F1F20014CA30 /* PKHUDStatusView.swift in Sources */,
+				6845454E1BE2F1F20014CA30 /* PKHUDAssets.swift in Sources */,
+				6845454F1BE2F1F20014CA30 /* PKHUDErrorView.swift in Sources */,
+				680FB0711BCC7F25000AE247 /* Black-Circular-Button.swift in Sources */,
+				684545511BE2F1F20014CA30 /* PKHUDProgressView.swift in Sources */,
+				68620ACA1BBDF8FA00E3DB46 /* AppDelegate.swift in Sources */,
+				68F7851C1BBF217900A43D85 /* Attendance-Controller.swift in Sources */,
+				68F7851A1BBF20D600A43D85 /* Menu-Controller.swift in Sources */,
+				6845455A1BE2F1F20014CA30 /* Window.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68620ACD1BBDF8FA00E3DB46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68620ACE1BBDF8FA00E3DB46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68620AD21BBDF8FA00E3DB46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68620AD31BBDF8FA00E3DB46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68620AD61BBDF8FA00E3DB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		68620AD71BBDF8FA00E3DB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68620AD91BBDF8FA00E3DB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Robitics",
+					"Attendance/parse-library-1",
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance/Sign,
+					In,
+					Images,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+				);
+				INFOPLIST_FILE = "Robitics Attendance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neotechnica.Robitics-Attendance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68620ADA1BBDF8FA00E3DB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Robitics",
+					"Attendance/parse-library-1",
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance/Sign,
+					In,
+					Images,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+				);
+				INFOPLIST_FILE = "Robitics Attendance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neotechnica.Robitics-Attendance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68620AC11BBDF8FA00E3DB46 /* Build configuration list for PBXProject "Robotics Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68620AD61BBDF8FA00E3DB46 /* Debug */,
+				68620AD71BBDF8FA00E3DB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68620AD81BBDF8FA00E3DB46 /* Build configuration list for PBXNativeTarget "Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68620AD91BBDF8FA00E3DB46 /* Debug */,
+				68620ADA1BBDF8FA00E3DB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68620ABE1BBDF8FA00E3DB46 /* Project object */;
+}
