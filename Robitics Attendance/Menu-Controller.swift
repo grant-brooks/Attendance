@@ -83,7 +83,8 @@ class MEC : UIViewController, MFMailComposeViewControllerDelegate, CLLocationMan
     @IBOutlet weak var buildButton: UIButton!
     @IBOutlet weak var ntButton: UIButton!
     
-    let buildNumber = Int(NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String)! + 1
+    //let buildNumber = Int(NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String)! + 1
+    let buildNumber = Int(NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String)!
     var buildIdentifier: String!
     var versionNumber = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String
     var versionCBI: String!

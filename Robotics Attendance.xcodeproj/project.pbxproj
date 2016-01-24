@@ -11,10 +11,15 @@
 		680FB0711BCC7F25000AE247 /* Black-Circular-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB0701BCC7F25000AE247 /* Black-Circular-Button.swift */; };
 		680FB0761BCC81C7000AE247 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB0751BCC81C7000AE247 /* File.swift */; };
 		680FB0941BCC8F80000AE247 /* Sign In Images in Resources */ = {isa = PBXBuildFile; fileRef = 680FB0931BCC8F80000AE247 /* Sign In Images */; };
+		6820F3F61C5464CE0008ACB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6820F3F51C5464CE0008ACB6 /* LaunchScreen.storyboard */; };
+		6820F3F81C5466430008ACB6 /* Public-Beta-Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6820F3F71C5466430008ACB6 /* Public-Beta-Badge.png */; };
+		6820F4131C546B1C0008ACB6 /* MyriadPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6820F4121C546B1C0008ACB6 /* MyriadPro-Semibold.otf */; };
+		6820F4191C546E960008ACB6 /* Beta-Footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6820F4181C546E960008ACB6 /* Beta-Footer.png */; };
 		682574791C45948D00BB6719 /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 682574761C45948C00BB6719 /* Home.gpx */; };
 		6825747A1C45948D00BB6719 /* North Shore Middle School.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 682574771C45948C00BB6719 /* North Shore Middle School.gpx */; };
 		6825747B1C45948D00BB6719 /* Odin's Bounty.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 682574781C45948C00BB6719 /* Odin's Bounty.gpx */; };
-		682822501C5417AB001B9255 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6828224F1C5417AB001B9255 /* Parse.framework */; };
+		68292CB91C5471430026C745 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68292CB81C5471430026C745 /* Parse.framework */; };
+		6829B0FF1C5470780051C746 /* Beta Footer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6829B0FE1C5470780051C746 /* Beta Footer.pdf */; };
 		684545491BE2F1F20014CA30 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545351BE2F1F20014CA30 /* FrameView.swift */; };
 		6845454A1BE2F1F20014CA30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684545361BE2F1F20014CA30 /* Images.xcassets */; };
 		6845454B1BE2F1F20014CA30 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 684545371BE2F1F20014CA30 /* Info.plist */; };
@@ -41,10 +46,10 @@
 		684545651BE2F3AA0014CA30 /* Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 684545641BE2F3AA0014CA30 /* Check.png */; };
 		684545681BE2FD120014CA30 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545661BE2FD120014CA30 /* SSRadioButton.swift */; };
 		684545691BE2FD120014CA30 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684545671BE2FD120014CA30 /* SSRadioButtonsController.swift */; };
+		684EE52E1C543CE000F46B54 /* TESTweb copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 684EE52D1C543CE000F46B54 /* TESTweb copy.png */; };
 		68620ACA1BBDF8FA00E3DB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68620AC91BBDF8FA00E3DB46 /* AppDelegate.swift */; };
 		68620ACF1BBDF8FA00E3DB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68620ACD1BBDF8FA00E3DB46 /* Main.storyboard */; };
 		68620AD11BBDF8FA00E3DB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68620AD01BBDF8FA00E3DB46 /* Assets.xcassets */; };
-		68620AD41BBDF8FA00E3DB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68620AD21BBDF8FA00E3DB46 /* LaunchScreen.storyboard */; };
 		687CB1881BE473FE00F284AB /* Bariol_Bold_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 687CB1841BE473FE00F284AB /* Bariol_Bold_Italic.otf */; };
 		687CB1891BE473FE00F284AB /* Bariol_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 687CB1851BE473FE00F284AB /* Bariol_Bold.otf */; };
 		687CB18A1BE473FE00F284AB /* Bariol_Regular_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 687CB1861BE473FE00F284AB /* Bariol_Regular_Italic.otf */; };
@@ -54,6 +59,8 @@
 		68AB37F01BE40BAE00B58F70 /* manteka.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68AB37EF1BE40BAE00B58F70 /* manteka.ttf */; };
 		68AC234D1C4718AB0020B3A9 /* NT .png in Resources */ = {isa = PBXBuildFile; fileRef = 68AC234C1C4718AB0020B3A9 /* NT .png */; };
 		68AC234F1C4720760020B3A9 /* Lubalin Graph Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68AC234E1C4720760020B3A9 /* Lubalin Graph Bold.ttf */; };
+		68E5BB801C546180004D2F2E /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E5BB7F1C546180004D2F2E /* Test.png */; };
+		68E5BB821C546353004D2F2E /* Public Beta Badge.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 68E5BB811C546353004D2F2E /* Public Beta Badge.pdf */; };
 		68F785041BBF1A5B00A43D85 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785031BBF1A5B00A43D85 /* Bolts.framework */; };
 		68F785061BBF1A7A00A43D85 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785051BBF1A7A00A43D85 /* AudioToolbox.framework */; };
 		68F785081BBF1A7E00A43D85 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F785071BBF1A7E00A43D85 /* CFNetwork.framework */; };
@@ -74,10 +81,15 @@
 		680FB0701BCC7F25000AE247 /* Black-Circular-Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Black-Circular-Button.swift"; sourceTree = "<group>"; };
 		680FB0751BCC81C7000AE247 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		680FB0931BCC8F80000AE247 /* Sign In Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sign In Images"; sourceTree = "<group>"; };
+		6820F3F51C5464CE0008ACB6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6820F3F71C5466430008ACB6 /* Public-Beta-Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Public-Beta-Badge.png"; sourceTree = "<group>"; };
+		6820F4121C546B1C0008ACB6 /* MyriadPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Semibold.otf"; sourceTree = "<group>"; };
+		6820F4181C546E960008ACB6 /* Beta-Footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beta-Footer.png"; sourceTree = "<group>"; };
 		682574761C45948C00BB6719 /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
 		682574771C45948C00BB6719 /* North Shore Middle School.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "North Shore Middle School.gpx"; sourceTree = "<group>"; };
 		682574781C45948C00BB6719 /* Odin's Bounty.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Odin's Bounty.gpx"; sourceTree = "<group>"; };
-		6828224F1C5417AB001B9255 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		68292CB81C5471430026C745 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		6829B0FE1C5470780051C746 /* Beta Footer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Beta Footer.pdf"; sourceTree = "<group>"; };
 		684545351BE2F1F20014CA30 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
 		684545361BE2F1F20014CA30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
 		684545371BE2F1F20014CA30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PKHUD/Info.plist; sourceTree = "<group>"; };
@@ -105,11 +117,11 @@
 		684545641BE2F3AA0014CA30 /* Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Check.png; sourceTree = "<group>"; };
 		684545661BE2FD120014CA30 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
 		684545671BE2FD120014CA30 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		684EE52D1C543CE000F46B54 /* TESTweb copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TESTweb copy.png"; sourceTree = "<group>"; };
 		68620AC61BBDF8FA00E3DB46 /* Attendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68620AC91BBDF8FA00E3DB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68620ACE1BBDF8FA00E3DB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68620AD01BBDF8FA00E3DB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		68620AD31BBDF8FA00E3DB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68620AD51BBDF8FA00E3DB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687CB1841BE473FE00F284AB /* Bariol_Bold_Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Bold_Italic.otf; sourceTree = "<group>"; };
 		687CB1851BE473FE00F284AB /* Bariol_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol_Bold.otf; sourceTree = "<group>"; };
@@ -120,6 +132,8 @@
 		68AB37EF1BE40BAE00B58F70 /* manteka.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = manteka.ttf; sourceTree = "<group>"; };
 		68AC234C1C4718AB0020B3A9 /* NT .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NT .png"; sourceTree = "<group>"; };
 		68AC234E1C4720760020B3A9 /* Lubalin Graph Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lubalin Graph Bold.ttf"; sourceTree = "<group>"; };
+		68E5BB7F1C546180004D2F2E /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Test.png; sourceTree = "<group>"; };
+		68E5BB811C546353004D2F2E /* Public Beta Badge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Public Beta Badge.pdf"; sourceTree = "<group>"; };
 		68F785031BBF1A5B00A43D85 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		68F785051BBF1A7A00A43D85 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		68F785071BBF1A7E00A43D85 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -150,7 +164,7 @@
 				68F7850A1BBF1A8500A43D85 /* CoreGraphics.framework in Frameworks */,
 				68F785081BBF1A7E00A43D85 /* CFNetwork.framework in Frameworks */,
 				68F785061BBF1A7A00A43D85 /* AudioToolbox.framework in Frameworks */,
-				682822501C5417AB001B9255 /* Parse.framework in Frameworks */,
+				68292CB91C5471430026C745 /* Parse.framework in Frameworks */,
 				68F785041BBF1A5B00A43D85 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +175,7 @@
 		68620ABD1BBDF8FA00E3DB46 = {
 			isa = PBXGroup;
 			children = (
+				6829B0FE1C5470780051C746 /* Beta Footer.pdf */,
 				68F785171BBF1AB500A43D85 /* libz.tbd */,
 				68F785151BBF1AB000A43D85 /* libsqlite3.tbd */,
 				68F785131BBF1AA100A43D85 /* SystemConfiguration.framework */,
@@ -195,10 +210,14 @@
 				684545381BE2F1F20014CA30 /* PKHUD.h */,
 				684545391BE2F1F20014CA30 /* PKHUD.swift */,
 				6845453A1BE2F1F20014CA30 /* PKHUDAnimating.swift */,
+				6820F4121C546B1C0008ACB6 /* MyriadPro-Semibold.otf */,
 				6845453B1BE2F1F20014CA30 /* PKHUDAssets.swift */,
+				684EE52D1C543CE000F46B54 /* TESTweb copy.png */,
+				68292CB81C5471430026C745 /* Parse.framework */,
 				6845453C1BE2F1F20014CA30 /* PKHUDErrorView.swift */,
 				6845453D1BE2F1F20014CA30 /* PKHUDImageView.swift */,
 				6845453E1BE2F1F20014CA30 /* PKHUDProgressView.swift */,
+				68E5BB7F1C546180004D2F2E /* Test.png */,
 				6845453F1BE2F1F20014CA30 /* PKHUDSquareBaseView.swift */,
 				684545401BE2F1F20014CA30 /* PKHUDStatusView.swift */,
 				684545411BE2F1F20014CA30 /* PKHUDSubtitleView.swift */,
@@ -220,23 +239,25 @@
 				680FB06E1BCC72E5000AE247 /* White-Circular-Button.swift */,
 				68AC234E1C4720760020B3A9 /* Lubalin Graph Bold.ttf */,
 				680FB0701BCC7F25000AE247 /* Black-Circular-Button.swift */,
-				6828224F1C5417AB001B9255 /* Parse.framework */,
 				6898F7F21C42B7F400F62EA3 /* UIImage+Gif.swift */,
 				6898F7F41C42B88D00F62EA3 /* robofish.gif */,
 				68620ACD1BBDF8FA00E3DB46 /* Main.storyboard */,
 				68AB37EF1BE40BAE00B58F70 /* manteka.ttf */,
 				687CB1841BE473FE00F284AB /* Bariol_Bold_Italic.otf */,
 				68AC234C1C4718AB0020B3A9 /* NT .png */,
+				6820F4181C546E960008ACB6 /* Beta-Footer.png */,
 				687CB1851BE473FE00F284AB /* Bariol_Bold.otf */,
 				687CB1861BE473FE00F284AB /* Bariol_Regular_Italic.otf */,
 				687CB1871BE473FE00F284AB /* Bariol_Regular.otf */,
 				68620AD01BBDF8FA00E3DB46 /* Assets.xcassets */,
 				6845455C1BE2F3840014CA30 /* Incorrect-Profile.png */,
 				6845455D1BE2F3840014CA30 /* Correct-Profile.png */,
+				6820F3F51C5464CE0008ACB6 /* LaunchScreen.storyboard */,
+				6820F3F71C5466430008ACB6 /* Public-Beta-Badge.png */,
 				6845455E1BE2F3840014CA30 /* Correct-Password.png */,
 				684545621BE2F3880014CA30 /* Incorrect-Password.png */,
 				684545641BE2F3AA0014CA30 /* Check.png */,
-				68620AD21BBDF8FA00E3DB46 /* LaunchScreen.storyboard */,
+				68E5BB811C546353004D2F2E /* Public Beta Badge.pdf */,
 				68620AD51BBDF8FA00E3DB46 /* Info.plist */,
 				68F785031BBF1A5B00A43D85 /* Bolts.framework */,
 			);
@@ -303,23 +324,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				68AC234D1C4718AB0020B3A9 /* NT .png in Resources */,
+				6820F4131C546B1C0008ACB6 /* MyriadPro-Semibold.otf in Resources */,
 				682574791C45948D00BB6719 /* Home.gpx in Resources */,
-				68620AD41BBDF8FA00E3DB46 /* LaunchScreen.storyboard in Resources */,
 				68620AD11BBDF8FA00E3DB46 /* Assets.xcassets in Resources */,
 				684545631BE2F3880014CA30 /* Incorrect-Password.png in Resources */,
 				687CB18B1BE473FE00F284AB /* Bariol_Regular.otf in Resources */,
 				68AC234F1C4720760020B3A9 /* Lubalin Graph Bold.ttf in Resources */,
 				680FB0941BCC8F80000AE247 /* Sign In Images in Resources */,
 				6845454A1BE2F1F20014CA30 /* Images.xcassets in Resources */,
+				6820F3F61C5464CE0008ACB6 /* LaunchScreen.storyboard in Resources */,
+				68E5BB801C546180004D2F2E /* Test.png in Resources */,
+				6820F3F81C5466430008ACB6 /* Public-Beta-Badge.png in Resources */,
 				687CB1891BE473FE00F284AB /* Bariol_Bold.otf in Resources */,
 				68620ACF1BBDF8FA00E3DB46 /* Main.storyboard in Resources */,
+				6820F4191C546E960008ACB6 /* Beta-Footer.png in Resources */,
+				6829B0FF1C5470780051C746 /* Beta Footer.pdf in Resources */,
 				6898F7F51C42B88D00F62EA3 /* robofish.gif in Resources */,
 				684545651BE2F3AA0014CA30 /* Check.png in Resources */,
 				6825747B1C45948D00BB6719 /* Odin's Bounty.gpx in Resources */,
+				684EE52E1C543CE000F46B54 /* TESTweb copy.png in Resources */,
 				6845454B1BE2F1F20014CA30 /* Info.plist in Resources */,
 				68AB37F01BE40BAE00B58F70 /* manteka.ttf in Resources */,
 				6825747A1C45948D00BB6719 /* North Shore Middle School.gpx in Resources */,
 				687CB1881BE473FE00F284AB /* Bariol_Bold_Italic.otf in Resources */,
+				68E5BB821C546353004D2F2E /* Public Beta Badge.pdf in Resources */,
 				687CB18A1BE473FE00F284AB /* Bariol_Regular_Italic.otf in Resources */,
 				684545601BE2F3840014CA30 /* Correct-Profile.png in Resources */,
 				6845455F1BE2F3840014CA30 /* Incorrect-Profile.png in Resources */,
@@ -332,7 +360,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		687CB1831BE473A300F284AB /* Update Build Number */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -342,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\nCFBundleVersionINCR=1.0.0\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+			shellScript = "#!/bin/bash\n#buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n#buildNumber=$(($buildNumber + 1))\n#CFBundleVersionINCR=1.0.0\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -389,14 +417,6 @@
 				68620ACE1BBDF8FA00E3DB46 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		68620AD21BBDF8FA00E3DB46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68620AD31BBDF8FA00E3DB46 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -562,6 +582,22 @@
 					Attendance,
 					"$(PROJECT_DIR)/Robitics",
 					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
 				);
 				INFOPLIST_FILE = "Robitics Attendance/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -621,6 +657,22 @@
 					Attendance/Sign,
 					In,
 					Images,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
+					"$(PROJECT_DIR)/Robitics",
+					Attendance,
 					"$(PROJECT_DIR)/Robitics",
 					Attendance,
 					"$(PROJECT_DIR)/Robitics",

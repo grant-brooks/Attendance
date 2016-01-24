@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
         //buildNumber = Int(NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String)! + 1
-        buildNumber = Int(NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String)!
+        buildNumber = Int(NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String)! 
 
         if buildNumber == 0
         {
