@@ -16,6 +16,34 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 
 ---------------------------------------------------------------------------------------------------------------------
 
+#Update 1.2.3
+######January 23, 2016
+**Build Identifier:** P012885.0425a
+
+**Technical Version Number:** 1.2.3.830
+
+
+##Changes in this Version
+
+• New icon and launch image.
+
+• *Various bug fixes.*
+
+
+##Known Issues
+
+• Tapping ‘return’ after entering text into the UITextField on the proximity detection override UIAlertView does not generate the expected response.
+
+• The proximity detection override UIAlertView UITextField may not automatically become the first responder when displayed.
+
+• The proximity detection UIAlertView may not function as expected.
+
+• The proximity detection override UIAlertView may not function as expected.
+
+• *Some features are not yet implemented.*
+
+---------------------------------------------------------------------------------------------------------------------
+
 #Update 1.2.2
 ######January 18, 2016
 **Build Identifier:** P0116082.2412b
