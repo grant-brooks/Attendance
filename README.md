@@ -16,6 +16,31 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 
 ---------------------------------------------------------------------------------------------------------------------
 
+#Update 1.2.4
+######February 10, 2016
+**Build Identifier:** P0129689.4449a
+
+**Technical Version Number:** 1.2.4.878
+
+
+##Changes in this Version
+
+• Significantly decreased application size.
+
+• Addresses all issues pertaining to UIAlertViews and UITextFields when attempting to override proximity detection.
+
+• Added compliance with server-side changes.
+
+• Minor changes to wording of some messages to increase clarity of instruction.
+
+• *Various bug fixes.*
+
+##Known Issues
+
+• *There are no known issues at this time, although some features may not yet be implemented.*
+
+---------------------------------------------------------------------------------------------------------------------
+
 #Update 1.2.3
 ######January 23, 2016
 **Build Identifier:** P012885.0425a
