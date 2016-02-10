@@ -4,7 +4,7 @@ Helps to keep track of robotics club attendance.
 
 ##Proximity Detection
 
-With Proximity Detection, **Robotics Attendance** detects whether or not you are within an ample distance of the school to mark yourself present at robotics and acts accordingly. If you are outside of the ample distance, you will not be able to mark yourself present.
+With proximity detection, **Robotics Attendance** detects whether or not you are within an ample distance of the school to mark yourself present at robotics and acts accordingly. If you are outside of the ample distance, you will not be able to mark yourself present.
 
 ##Elegant Design
 
