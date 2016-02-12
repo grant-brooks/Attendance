@@ -16,6 +16,39 @@ The interface design of **Robotics Attendance** is simple in its aesthetic famil
 
 ---------------------------------------------------------------------------------------------------------------------
 
+#Update 1.3.0
+######February 12, 2016
+**Build Identifier:** P01300100.4504a
+
+**Technical Version Number:** 1.3.0.988
+
+
+##Changes in this Version
+
+• Added 'build days' statistic in conjunction with regular allotted time statistic.
+
+• The application will now notify you if there is an update available.
+
+• Formalised dialogue relating to description of requests to track location.
+
+• Incorporated daily report system into process of ending current session.
+
+• Finalised compliance with major server-side changes.
+
+• Widespread changes to wording of some text to increase clarity of portrayal.
+
+• Minor user interface tweaks/changes.
+
+• *Various bug fixes.*
+
+##Known Issues
+
+• The wording related to the description of requests to track location has been reversed pertaining to description location.
+
+• *Some features are not yet implemented.*
+
+---------------------------------------------------------------------------------------------------------------------
+
 #Update 1.2.4
 ######February 10, 2016
 **Build Identifier:** P0129689.4449a
